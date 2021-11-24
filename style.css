@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 html,
@@ -7,20 +8,17 @@ body {
   --black: hsl(240, 6%, 13%);
   --grey: hsl(240, 9%, 89%);
 
-  height: 100%;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 body {
   background: linear-gradient(200deg, #004382, #00ff2ab6);
-  background-size: cover;
   display: grid;
   place-items: center;
 }
 
 main {
-  margin: -3%;
   background: url(./img/background_cracha.png) no-repeat center;
   width: 375px;
   height: 812px;
@@ -92,17 +90,17 @@ ul {
 }
 
 #socialLinks .youtube:hover {
-  box-shadow: 0px 0px 3px 6px #e11616;
+  box-shadow: 0px 4px 6px 1px #333333;
 }
 
 #socialLinks .facebook:hover {
-  box-shadow: 0px 0px 3px 6px #004aac;
+  box-shadow: 0px 4px 6px 1px #333333;
 }
 
 #socialLinks .instagram:hover {
-  box-shadow: 0px 0px 3px 6px #d000b7;
+  box-shadow: 0px 4px 6px 1px #333333;
 }
 
 #socialLinks .twitter:hover {
-  box-shadow: 0px 0px 3px 6px #0097fc;
+  box-shadow: 0px 4px 6px 1px #333333;
 }
